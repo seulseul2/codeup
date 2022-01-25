@@ -10,5 +10,8 @@ print(c)
 # 그렇기 때문에
 a, b = input().split() # 먼저 입력값을 문자열로 받아준 다음
 int(a), int(b) # 이렇게 따로 처리해주어야 한다.
+
+# 가장 좋은 방법은
+a, b = map(int, input().split())
 ```
 
