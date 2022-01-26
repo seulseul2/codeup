@@ -1,5 +1,7 @@
-n = int(input())
-for i in range(1, n+1):
-    for j in i:
-        print('*', end='')
-    print()
+import sys
+
+n = 1
+while n < 6:
+    a, b = map(int, sys.stdin.readline().split())
+    print(a+b)
+    n += 1
